@@ -41,43 +41,6 @@ Perfect for developers looking to build production-grade AI applications with ro
 
 ---
 
-## 📦 Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- Python 3.8 or higher
-- pip (Python package manager)
-- Virtual environment tool (venv or conda)
-
----
-
-## 🔧 Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yogendrapuridotnet/LangChain-LangGraph-LangSmith.git
-cd LangChain-LangGraph-LangSmith
-```
-
-2. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-4. Configure environment variables:
-```bash
-cp .env.example .env
-# Edit .env with your API keys and configurations
-```
-
----
-
 ## 🚀 Quick Start
 
 Get up and running in minutes:
@@ -93,22 +56,6 @@ chain = LLMChain(llm=llm, prompt=prompt)
 # Run the chain
 result = chain.run("Your input here")
 print(result)
-```
-
----
-
-## 📂 Project Structure
-
-```
-LangChain-LangGraph-LangSmith/
-├── examples/              # Example implementations
-├── src/                   # Source code
-├── tests/                 # Unit and integration tests
-├── docs/                  # Documentation
-├── notebooks/             # Jupyter notebooks
-├── requirements.txt       # Python dependencies
-├���─ .env.example          # Environment variables template
-└── README.md             # This file
 ```
 
 ---
@@ -165,36 +112,11 @@ client = Client()
 # Track your experiments and metrics
 ```
 
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
 ## 🔗 Useful Resources
 
 - [LangChain Documentation](https://python.langchain.com/)
 - [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
 - [LangSmith Documentation](https://docs.smith.langchain.com/)
 
----
-
-## 📧 Contact & Support
-
-For questions and support, please open an issue in the repository or reach out to the maintainers.
 
 **Happy coding! 🎉**
